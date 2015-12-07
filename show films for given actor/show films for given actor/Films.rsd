@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>Movies</DataSourceReference>
+      <CommandText>SELECT        tblActor.ActorID, tblActor.ActorName, tblDirector.DirectorName, tblFilm.FilmName
+FROM            tblActor INNER JOIN
+                         tblCast ON tblActor.ActorID = tblCast.CastActorID INNER JOIN
+                         tblFilm ON tblCast.CastFilmID = tblFilm.FilmID INNER JOIN
+                         tblDirector ON tblFilm.FilmDirectorID = tblDirector.DirectorID
+ORDER BY tblActor.ActorName</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="ActorID">
+        <DataField>ActorID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="ActorName">
+        <DataField>ActorName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DirectorName">
+        <DataField>DirectorName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FilmName">
+        <DataField>FilmName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

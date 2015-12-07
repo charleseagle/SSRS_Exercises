@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Parameters - conditional format", "Parameters - conditional format\Parameters - conditional format.rptproj", "{BA21F698-7002-4ED4-A278-ECF48903446F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA21F698-7002-4ED4-A278-ECF48903446F}.Debug|Default.ActiveCfg = Debug
+		{BA21F698-7002-4ED4-A278-ECF48903446F}.Debug|Default.Build.0 = Debug
+		{BA21F698-7002-4ED4-A278-ECF48903446F}.Debug|Default.Deploy.0 = Debug
+		{BA21F698-7002-4ED4-A278-ECF48903446F}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{BA21F698-7002-4ED4-A278-ECF48903446F}.DebugLocal|Default.Build.0 = DebugLocal
+		{BA21F698-7002-4ED4-A278-ECF48903446F}.Release|Default.ActiveCfg = Release
+		{BA21F698-7002-4ED4-A278-ECF48903446F}.Release|Default.Build.0 = Release
+		{BA21F698-7002-4ED4-A278-ECF48903446F}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

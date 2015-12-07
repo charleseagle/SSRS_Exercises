@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>SELECT        tblCertificate.CertificateID, tblCertificate.CertificateName, tblCountry.CountryName, tblFilm.FilmID
+FROM            tblCertificate INNER JOIN
+                         tblFilm ON tblCertificate.CertificateID = tblFilm.FilmCertificateID INNER JOIN
+                         tblCountry ON tblFilm.FilmCountryID = tblCountry.CountryID
+WHERE        ((tblCountry.CountryName = 'France') OR
+                         (tblCountry.CountryName = 'New Zealand') OR
+                         (tblCountry.CountryName = 'United Kingdom') OR
+                         (tblCountry.CountryName = 'United States')) AND (tblCertificate.CertificateName &lt;&gt; 'Unknown')</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="CertificateID">
+        <DataField>CertificateID</DataField>
+        <rd:TypeName>System.Int64</rd:TypeName>
+      </Field>
+      <Field Name="CertificateName">
+        <DataField>CertificateName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CountryName">
+        <DataField>CountryName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FilmID">
+        <DataField>FilmID</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

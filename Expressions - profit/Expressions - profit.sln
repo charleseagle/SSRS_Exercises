@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Expressions - profit", "Expressions - profit\Expressions - profit.rptproj", "{D004081E-652E-4FF0-99D0-C5D005F299B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D004081E-652E-4FF0-99D0-C5D005F299B1}.Debug|Default.ActiveCfg = Debug
+		{D004081E-652E-4FF0-99D0-C5D005F299B1}.Debug|Default.Build.0 = Debug
+		{D004081E-652E-4FF0-99D0-C5D005F299B1}.Debug|Default.Deploy.0 = Debug
+		{D004081E-652E-4FF0-99D0-C5D005F299B1}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{D004081E-652E-4FF0-99D0-C5D005F299B1}.DebugLocal|Default.Build.0 = DebugLocal
+		{D004081E-652E-4FF0-99D0-C5D005F299B1}.Release|Default.ActiveCfg = Release
+		{D004081E-652E-4FF0-99D0-C5D005F299B1}.Release|Default.Build.0 = Release
+		{D004081E-652E-4FF0-99D0-C5D005F299B1}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

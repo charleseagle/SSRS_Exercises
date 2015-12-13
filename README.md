@@ -1,2 +1,2 @@
 # SSRS_Exercises
-SSRS exercies for fun.
+SSRS exercises for fun.

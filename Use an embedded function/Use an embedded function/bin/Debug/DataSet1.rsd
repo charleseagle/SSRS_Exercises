@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>SELECT        TOP (10) FilmName, FilmBudgetDollars, FilmBoxOfficeDollars, FilmBoxOfficeDollars - FilmBudgetDollars AS [Profit Margin], FilmBoxOfficeDollars - FilmBudgetDollars AS Status
+FROM            tblFilm</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="FilmName">
+        <DataField>FilmName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FilmBudgetDollars">
+        <DataField>FilmBudgetDollars</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="FilmBoxOfficeDollars">
+        <DataField>FilmBoxOfficeDollars</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Profit_Margin">
+        <DataField>Profit Margin</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Status">
+        <DataField>Status</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

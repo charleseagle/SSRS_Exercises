@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <DataSourceReference>Movies</DataSourceReference>
+      <CommandText>SELECT        tblCertificate.CertificateName, tblFilm.FilmID AS NumberFilms
+FROM            tblCertificate INNER JOIN
+                         tblFilm ON tblCertificate.CertificateID = tblFilm.FilmCertificateID
+ORDER BY tblCertificate.CertificateID</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="CertificateName">
+        <DataField>CertificateName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="NumberFilms">
+        <DataField>NumberFilms</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

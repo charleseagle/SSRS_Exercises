@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Simple list of films (one box per film)", "Simple list of films (one box per film)\Simple list of films (one box per film).rptproj", "{B9ACAFDE-8DE3-4B05-B5B7-D78A388719E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9ACAFDE-8DE3-4B05-B5B7-D78A388719E5}.Debug|Default.ActiveCfg = Debug
+		{B9ACAFDE-8DE3-4B05-B5B7-D78A388719E5}.Debug|Default.Build.0 = Debug
+		{B9ACAFDE-8DE3-4B05-B5B7-D78A388719E5}.Debug|Default.Deploy.0 = Debug
+		{B9ACAFDE-8DE3-4B05-B5B7-D78A388719E5}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{B9ACAFDE-8DE3-4B05-B5B7-D78A388719E5}.DebugLocal|Default.Build.0 = DebugLocal
+		{B9ACAFDE-8DE3-4B05-B5B7-D78A388719E5}.Release|Default.ActiveCfg = Release
+		{B9ACAFDE-8DE3-4B05-B5B7-D78A388719E5}.Release|Default.Build.0 = Release
+		{B9ACAFDE-8DE3-4B05-B5B7-D78A388719E5}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
